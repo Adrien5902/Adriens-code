@@ -2,7 +2,7 @@
     "name": "adrien-s-code",
     "displayName": "Adrien's code",
     "description": "All the features I want to code faster",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.84.0"
