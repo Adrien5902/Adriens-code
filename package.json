@@ -10,7 +10,12 @@
     "categories": [
         "Other"
     ],
-    "activationEvents": [],
+    "activationEvents": [
+        "onLanguage:css",
+        "onLanguage:less",
+        "onLanguage:sass",
+        "onLanguage:scss"
+    ],
     "main": "./out/extension.js",
     "repository": {
         "type": "git",
@@ -25,6 +30,10 @@
             {
                 "command": "adrien-s-code.deleteSurround",
                 "title": "Delete Surround"
+            },
+            {
+                "command": "adrien-s-code.bigComment",
+                "title": "Big Comment"
             }
         ],
         "keybindings": [
@@ -35,6 +44,10 @@
             {
                 "command": "adrien-s-code.deleteSurround",
                 "key": "ctrl+shift+a"
+            },
+            {
+                "command": "adrien-s-code.bigComment",
+                "key": "ctrl+shift+oem_2"
             }
         ]
     },

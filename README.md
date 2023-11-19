@@ -1,17 +1,42 @@
-# Adrien's code VS Code Extension
+# Adrien's code VS Code Extension 
 
-## Features
+A VS Code extension with all the features I wanted 🤩
 
-Change and Delete Surroundings
+# Features
+## Commands :
+### Change Surrounding
+>Default keybind: "Ctrl+Shift+Q"
 
-## Requirements
+Changes the surrounding (), {}, [] to anything you input
+No need to select anything
+
+### Delete Surroundings
+>Default keybind: "Ctrl+Shift+A"
+
+Same as the last one but deletes instead of changing
+
+### Big comments
+>Default keybind: "Ctrl+Shift+:"
+
+Adds a big comment looking like that (any common language is supported) :
+```javascript
+/////////////////////////////////////////
+//This is a very big JavaScript comment//
+/////////////////////////////////////////
+```
+```python
+###################################
+#This is a very big Python comment#
+###################################
+```
+
+# Requirements
 None
 
-## Extension Settings
+# Extension Settings
 You can customize keybinds
 
-## Known Issues
+# Known Issues
 None at this moment
-
 
 # **Enjoy! 🤩**
