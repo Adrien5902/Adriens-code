@@ -34,6 +34,10 @@
             {
                 "command": "adrien-s-code.bigComment",
                 "title": "Big Comment"
+            },
+            {
+                "command": "adrien-s-code.cycleQuotes",
+                "title": "Cycle Quotes"
             }
         ],
         "keybindings": [
@@ -44,6 +48,10 @@
             {
                 "command": "adrien-s-code.deleteSurround",
                 "key": "ctrl+shift+a"
+            },
+            {
+                "command": "adrien-s-code.cycleQuotes",
+                "key": "ctrl+shift+j"
             },
             {
                 "command": "adrien-s-code.bigComment",

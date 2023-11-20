@@ -4,10 +4,13 @@ import { changeSurround, deleteSurround } from "./surroundCommands";
 import { registerCommand, commands } from './functions';
 import { supportedCssFiles, decorateFlexes } from './flexCheat';
 import { flexCheatCommand } from './flexCheat';
+import { cycleQuotes } from './cycleQuotes';
 
 export function activate(context: vscode.ExtensionContext) {
 	registerCommand('changeSurround', changeSurround)
 	registerCommand('deleteSurround', deleteSurround)
+
+	registerCommand("cycleQuotes", cycleQuotes)
 
 	registerCommand('bigComment', bigComment)
 	

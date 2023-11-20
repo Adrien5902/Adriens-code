@@ -34,6 +34,11 @@ Adds a big comment looking like that (any common language is supported) :
 ## Flex Cheat
 ![Flex-Cheat](https://github.com/Adrien5902/Adriens-code/assets/81705101/40d8869d-d40d-49b3-b0db-0eabd24fb7cc)
 
+## Change Surrounding
+>Default keybind: "Ctrl+Shift+J"
+
+Cycles between ", ', ` quotes
+
 # Requirements
 None
 
