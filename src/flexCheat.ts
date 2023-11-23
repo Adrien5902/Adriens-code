@@ -58,6 +58,8 @@ function flexMarkDown(editor: vscode.TextEditor, pos: vscode.Position) {
 
 	if (!bracketsPos) throw new AdriensError("Not in a css bracket {}");
 
+	const bracketSlicedString = text.slice(bracketsPos.open, bracketsPos.close);
+
 	const display = "flex";
 
 	return [
@@ -87,7 +89,6 @@ function flexMarkDown(editor: vscode.TextEditor, pos: vscode.Position) {
 }
 
 export const supportedCssFiles = ['css', 'less', 'sass', 'scss'];
-
 export function decorateFlexes() {
 	const editor = getEditor();
 
